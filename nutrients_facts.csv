@@ -1,13 +1,12 @@
-Food,Calories,Protein,Carbs,Fat,Sugar,Sodium,Serving,,,,
-Apple pie,296,2.4,43,14,20,251,"1 piece (1/8 of 9"" dia)ï¿½(125g)",,,,
-Baby back ribs,110,8,2.2,7.5,1.8,88,medium ribï¿½(40g),,,,
-Baklava,310,5.5,29,20,16,213,1 piece,,,,
-Beef carpaccio,181,13,2,13,0.7,266,2 oz portionï¿½(78g),,,,
-Beef tartare,552,33,5.7,44,1.8,403,1 cup (224g),,,,
+,Calories,Protein,Carbs,Fat,Sugar,Sodium,Serving,Note
+Apple pie,296,2.4,43,14,20,251,"1 piece (1/8 of 9"" dia)Ê(125g)",Apple pie
+Baby back ribs,110,8,2.2,7.5,1.8,88,medium ribÊ(40g),Baby back ribs
+Baklava,310,5.5,29,20,16,213,1 piece,Baklava
+Beef carpaccio,181,13,2,13,0.7,266,2 oz portionÊ(78g),Beef carpaccio
+Beef tartare,552,33,5.7,44,1.8,403,1 cup (224g),Beef tartare
 Beet salad,"598
-",11,24,52,18,577,"
-1
-salad (about 2 cups) (259g)",,,,"Beet Salad
+",11,24,52,18,577,"1
+salad (about 2 cups) (259g)","Beet Salad
 Serving Size:
 1
 salad (about 2 cups) (259ggrams)
@@ -31,7 +30,7 @@ Protein 11ggrams
 Beignets,"262
 ",6,40,8.5,7.7,135,"
 1
-piece (90g)",,,,"Beignets
+piece (90g)","Beignets
 Serving Size:
 1
 piece (90ggrams)
@@ -55,7 +54,7 @@ Protein 6ggrams
 0.4%Vitamin C"
 Bibimbap,1000,19,107,57,18,2670,"
 1
-Serving (645g)",,,,"Serving Size:
+Serving (645g)","Serving Size:
 1
 Serving (645ggrams)
 Amount Per Serving
@@ -79,7 +78,7 @@ Protein 19ggrams
 Bread pudding,"377
 ",7.7,72,7.3,55,190,"
 1
-cup (200g)",,,,"Bread Pudding
+cup (200g)","Bread Pudding
 Serving Size:
 1
 cup (200ggrams)
@@ -103,7 +102,7 @@ Protein 7.7ggrams
 2.6%Vitamin C"
 Breakfast burrito,657,29,72,28,1.4,1522,"
 1
-large burrito (388g)",,,,"Breakfast Burrito
+large burrito (388g)","Breakfast Burrito
 Serving Size:
 1
 large burrito (388ggrams)
@@ -127,7 +126,7 @@ Protein 29ggrams
 55%Vitamin C"
 Bruschetta,72,1.3,6.2,4.9,1,103,"
 1
-piece (35g)",,,,"Bruschetta
+piece (35g)","Bruschetta
 Serving Size:
 1
 piece (35ggrams)
@@ -152,7 +151,7 @@ Protein 1.3ggrams
 Caesar salad,"481
 ",10,23,40,4.9,1152,"
 1
-salad (about 3 cups) (305g)",,,,"Caesar Salad
+salad (about 3 cups) (305g)","Caesar Salad
 Serving Size:
 1
 salad (about 3 cups) (305ggrams)
@@ -177,7 +176,7 @@ Protein 10ggrams
 19%Calcium"
 Cannoli,233,6,18,15,6.3,37,"
 1
-cannoli (80g)",,,,"Serving Size:
+cannoli (80g)","Serving Size:
 1
 cannoli (80ggrams)
 Cannoli
@@ -201,7 +200,7 @@ Iron 0mg"
 Caprese salad,"220
 ",13,4.7,17,2.8,439,"
 1
-cup (161g)",,,,"
+cup (161g)","
 Caprese Salad
 Serving Size:
 1
@@ -227,7 +226,7 @@ Protein 13ggrams
 Carrot cake,"577
 ",6.6,73,30,51,415,"
 1
-piece (173g)",,,,"
+piece (173g)","
 Carrot Cake
 Serving Size:
 1
@@ -252,7 +251,7 @@ Protein 6.6ggrams
 3%"
 Ceviche,82,15,2.6,1.3,1,436,"
 0.5
-cup (121g)",,,,"
+cup (121g)","
 Ceviche
 Serving Size:
 0.5
@@ -278,7 +277,7 @@ Protein 15ggrams
 Cheesecake,"401
 ",6.9,32,28,27,548,"
 1
-piece (1 NLEA serving) (125g)",,,,"Cheesecake
+piece (1 NLEA serving) (125g)","Cheesecake
 Serving Size:
 1
 piece (1 NLEA serving) (125ggrams)
@@ -302,7 +301,7 @@ Protein 6.9ggrams
 Cheese plate,"662
 ",45,8.3,50,0.5,1784,"
 1
-serving (about 6 oz) (170g)",,,,"
+serving (about 6 oz) (170g)","
 Cheese Plate
 Serving Size:
 1
@@ -326,7 +325,7 @@ Protein 45ggrams"
 Chicken curry,"243
 ",28,7.5,11,2,73,"
 1
-cup (235g)",,,,"
+cup (235g)","
 Chicken Curry
 Serving Size:
 1
@@ -351,7 +350,7 @@ Protein 28ggrams
 8.1%"
 Chicken quesadilla,1069,61,92,50,6.3,1815,"
 1
-quesadilla (494g)",,,,"Serving Size:
+quesadilla (494g)","Serving Size:
 1
 quesadilla (494ggrams)
 Amount Per Serving
@@ -376,7 +375,7 @@ Protein 61ggrams
 39%"
 Chicken wings,88,4.5,2.6,6.5,0.1,105,"
 1
-wingette or drummette (27g)",,,,"
+wingette or drummette (27g)","
 Chicken Wings
 Serving Size:
 1
@@ -400,7 +399,7 @@ Protein 4.5ggrams"
 Chocolate cake,"424
 ",3.8,58,22,44,379,"
 1
-piece (109g)",,,,"Serving Size:
+piece (109g)","Serving Size:
 1
 piece (109ggrams)
 Chocolate Cake
@@ -424,7 +423,7 @@ Iron 3mg"
 Chocolate mousse,"455
 ",8.4,32,32,30,77,"
 0.5
-cup (202g)",,,,"Serving Size:
+cup (202g)","Serving Size:
 0.5
 cup (202ggrams)
 Chocolate Mousse
@@ -447,7 +446,7 @@ Potassium 289mgmilligrams6%"
 Churros,"103
 ",0.5,8.4,7.7,4.8,44,"
 1
-churro (26g)",,,,"
+churro (26g)","
 Churros
 Serving Size:
 1
@@ -473,7 +472,7 @@ Protein 0.5ggrams
 Clam chowder,"201
 ",6.6,21,10,0.6,871,"
 1
-cup (254g)",,,,"
+cup (254g)","
 Clam Chowder
 Serving Size:
 1
@@ -497,7 +496,7 @@ Cholesterol FreeLow CholesterolGood Source of Fiber"
 Club sandwich,"817
 ",56,42,46,7.1,1867,"
 1
-sandwich (349g)",,,,"Club Sandwich
+sandwich (349g)","Club Sandwich
 Serving Size:
 1
 sandwich (349ggrams)
@@ -522,7 +521,7 @@ Protein 56ggrams
 Crab cakes,"362
 ",23,15,23,3,1286,"
 1
-medium cake (210g)",,,,"Crab Cakes
+medium cake (210g)","Crab Cakes
 Serving Size:
 1
 medium cake (210ggrams)
@@ -547,7 +546,7 @@ Protein 23ggrams
 Creme brulee,"687
 ",8.3,30,60,30,54,"
 1
-ramekin (200g)",,,,"
+ramekin (200g)","
 Creme Brulee
 Serving Size:
 1
@@ -573,7 +572,7 @@ Protein 8.3ggrams
 Croque madame,"721
 ",37,57,38,10,1722,"
 1
-sandwich (363g)",,,,"
+sandwich (363g)","
 Croque Madame
 Serving Size:
 1
@@ -599,7 +598,7 @@ Protein 37ggrams
 Cup cakes,"292
 ",2.6,40,15,30,261,"
 1
-cupcake (75g)",,,,"Serving Size:
+cupcake (75g)","Serving Size:
 1
 cupcake (75ggrams)
 Cupcake
@@ -623,7 +622,7 @@ Iron 2mg"
 Deviled eggs,"68
 ",3.2,0.5,5.8,0.1,69,"
 1
-half large egg (30g)",,,,"Deviled Eggs
+half large egg (30g)","Deviled Eggs
 Serving Size:
 1
 half large egg (30ggrams)
@@ -648,7 +647,7 @@ Protein 3.2ggrams
 Donuts,"253
 ",3.7,29,14,14,190,"
 1
-doughnut, medium (60g)",,,,"Donut
+doughnut, medium (60g)","Donut
 Serving Size:
 1
 doughnut, medium (60ggrams)
@@ -673,7 +672,7 @@ Protein 3.7ggrams
 Dumplings,"74
 ",2,12,1.7,0.5,271,"
 1
-medium dumpling (32g)",,,,"
+medium dumpling (32g)","
 Dumplings
 Serving Size:
 1
@@ -699,7 +698,7 @@ Protein 2ggrams
 Edamame,"94
 ",9.2,6.9,4,1.7,4.7,"
 0.5
-cup, shelled (78g)",,,,"Edamame
+cup, shelled (78g)","Edamame
 Serving Size:
 0.5
 cup, shelled (78ggrams)
@@ -724,7 +723,7 @@ Protein 9.2ggrams
 Eggs benedict,"733
 ",30,30,55,1.2,1946,"
 1
-serving (2 eggs) (282g)",,,,"Serving Size:
+serving (2 eggs) (282g)","Serving Size:
 1
 serving (2 eggs) (282ggrams)
 Amount Per Serving
@@ -750,7 +749,7 @@ Protein 30ggrams
 Escargots,"77
 ",14,1.7,1.2,0,60,"
 3
-oz (85g)",,,,"
+oz (85g)","
 Escargots
 Serving Size:
 3
@@ -776,7 +775,7 @@ Protein 14ggrams
 Falafel,"83
 ",1.1,3.7,7.3,0.6,30,"
 1
-patty (approx 1-1/4"" dia) (20g)",,,,"
+patty (approx 1-1/4"" dia) (20g)","
 Falafel
 Serving Size:
 1
@@ -800,7 +799,7 @@ Protein 1.1ggrams"
 Filet mignon,"227
 ",22,0,15,0,46,"
 3
-oz (85g)",,,,"
+oz (85g)","
 Filet Mignon
 Serving Size:
 3
@@ -848,7 +847,7 @@ Protein 22ggrams
 Fish and chips,"688
 ",43,71,26,2,1403,"
 1
-serving (513g)",,,,"Fish And Chips
+serving (513g)","Fish And Chips
 Serving Size:
 1
 serving (513ggrams)
@@ -873,7 +872,7 @@ Protein 43ggrams
 Foie gras,"60
 ",1.5,0.6,5.7,0,91,"
 1
-tbsp (13g)",,,,"
+tbsp (13g)","
 Foie Gras
 Serving Size:
 1
@@ -899,7 +898,7 @@ Protein 1.5ggrams
 French fries,"365
 ",4,48,17,0.4,246,"
 1
-serving medium (117g)",,,,"Serving Size:
+serving medium (117g)","Serving Size:
 1
 serving medium (117ggrams)
 Amount Per Serving
@@ -924,7 +923,7 @@ Protein 4ggrams
 French onion soup,"478
 ",21,40,24,6.4,815,"
 1
-crock (350g)",,,,"
+crock (350g)","
 French Onion Soup
 Serving Size:
 1
@@ -950,7 +949,7 @@ Protein 21ggrams
 French toast,"219
 ",7.3,23,11,4,237,"
 1
-slice without syrup (84g)",,,,"
+slice without syrup (84g)","
 French Toast
 Serving Size:
 1
@@ -976,7 +975,7 @@ Protein 7.3ggrams
 Fried calamari,"356
 ",18,37,15,0.1,252,"
 1
-cup (143g)",,,,"
+cup (143g)","
 Fried Calamari
 Serving Size:
 1
@@ -1002,7 +1001,7 @@ Protein 18ggrams
 Fried rice,"238
 ",5.5,45,4.1,0.8,530,"
 1
-cup (137g)",,,,"Fried Rice
+cup (137g)","Fried Rice
 Serving Size:
 1
 cup (137ggrams)
@@ -1027,7 +1026,7 @@ Protein 5.5ggrams
 Frozen yogurt,"221
 ",5.2,38,6.3,35,110,"
 1
-cup (174g)",,,,"Frozen Yogurt
+cup (174g)","Frozen Yogurt
 Serving Size:
 1
 cup (174ggrams)
@@ -1052,7 +1051,7 @@ Protein 5.2ggrams
 Garlic bread,"151
 ",3.6,18,7.1,1.6,234,"
 1
-slice presliced (43g)",,,,"
+slice presliced (43g)","
 Garlic Bread
 Serving Size:
 1
@@ -1078,7 +1077,7 @@ Protein 3.6ggrams
 Gnocchi,"254
 ",7.7,52,1.5,0.8,18,"
 1
-cup (127g)",,,,"Serving Size:
+cup (127g)","Serving Size:
 1
 cup (127ggrams)
 Amount Per Serving
@@ -1103,7 +1102,7 @@ Protein 7.7ggrams
 Greek salad,"179
 ",5.1,7.4,15,4.2,370,"
 1
-cup (159g)",,,,"Greek Salad
+cup (159g)","Greek Salad
 Serving Size:
 1
 cup (159ggrams)
@@ -1130,7 +1129,7 @@ Grilled cheese sandwich,"366
 ","12
 ",28,23,5.4,886,"
 1
-sandwich (106g)",,,,"Grilled Cheese Sandwich
+sandwich (106g)","Grilled Cheese Sandwich
 Serving Size:
 1
 sandwich (106ggrams)
@@ -1174,7 +1173,7 @@ Serving	Ingredient	Calories
 Grilled salmon,"468
 ",50,0,28,0,138,"
 1
-fillet (227g)",,,,"Serving Size:
+fillet (227g)","Serving Size:
 1
 fillet (227ggrams)
 Amount Per Serving
@@ -1199,7 +1198,7 @@ Protein 50ggrams
 Guacamole,"45
 ",0.6,2.6,4.1,0.2,127,"
 2
-tbsp (30g)",,,,"Guacamole
+tbsp (30g)","Guacamole
 Serving Size:
 2
 tbsp (30ggrams)
@@ -1224,7 +1223,7 @@ Protein 0.6ggrams
 Gyoza,"79
 ",3.5,7.4,3.8,0.4,140,"
 1
-piece (37g)",,,,"
+piece (37g)","
 Gyoza
 Serving Size:
 1
@@ -1250,7 +1249,7 @@ Protein 3.5ggrams
 Hamburger,"540
 ",34,40,27,0,791,"
 1
-sandwich (226g)",,,,"Hamburger
+sandwich (226g)","Hamburger
 Serving Size:
 1
 sandwich (226ggrams)
@@ -1275,7 +1274,7 @@ Protein 34ggrams
 Hot and sour soup,"91
 ",6,10,2.8,1,876,"
 1
-cup (233g)",,,,"
+cup (233g)","
 Hot And Sour Soup
 Serving Size:
 1
@@ -1301,7 +1300,7 @@ Protein 6ggrams
 Hot dog,"155
 ",5.6,1.3,14,0.6,409,"
 1
-frankfurter (48g)",,,,"Hot Dog
+frankfurter (48g)","Hot Dog
 Serving Size:
 1
 frankfurter (48ggrams)
@@ -1326,7 +1325,7 @@ Protein 5.6ggrams
 Huevos rancheros,"644
 ",29,39,43,5.2,1561,"
 1
-serving (450g)",,,,"
+serving (450g)","
 Huevos Rancheros
 Serving Size:
 1
@@ -1352,7 +1351,7 @@ Protein 29ggrams
 Hummus,"100
 ",4.7,8.6,5.8,0,227,"
 0.3
-cup (60g)",,,,"
+cup (60g)","
 Hummus
 Serving Size:
 0.3
@@ -1378,7 +1377,7 @@ Protein 4.7ggrams
 Ice cream,"273
 ",4.6,31,15,28,106,"
 1
-cup (132g)",,,,"
+cup (132g)","
 Ice Cream
 Serving Size:
 1
@@ -1404,7 +1403,7 @@ Protein 4.6ggrams
 Lasagna,"602
 ",44,35,32,11,1576,"
 1
-serving (about 1.5 cups) (385g)",,,,"
+serving (about 1.5 cups) (385g)","
 Lasagna
 Serving Size:
 1
@@ -1428,7 +1427,7 @@ Protein 44ggrams"
 Lobster bisque,"232
 ",14,8,14,4.5,316,"
 1
-serving (218g)",,,,"Lobster Bisque
+serving (218g)","Lobster Bisque
 Serving Size:
 1
 serving (218ggrams)
@@ -1453,7 +1452,7 @@ Protein 14ggrams
 Lobster roll sandwich,"507
 ",42,33,22,1.1,937,"
 1
-sandwich (254g)",,,,"
+sandwich (254g)","
 Lobster Roll Sandwich
 Serving Size:
 1
@@ -1479,7 +1478,7 @@ Protein 42ggrams
 Macaroni and cheese,"376
 ",9.7,47,16,8.5,669,"
 1
-cup (198g)",,,,"Macaroni And Cheese
+cup (198g)","Macaroni And Cheese
 Serving Size:
 1
 cup (198ggrams)
@@ -1504,7 +1503,7 @@ Protein 9.7ggrams
 Macarons,"43
 ",0.9,6,1.9,5.2,18,"
 1
-cookie (11g)",,,,"Serving Size:
+cookie (11g)","Serving Size:
 1
 cookie (11ggrams)
 Macarons
@@ -1528,7 +1527,7 @@ Iron 0mg"
 Miso soup,"59
 ",5.8,3.5,3,1.2,1071,"
 1
-cup (241g)",,,,"Miso Soup
+cup (241g)","Miso Soup
 Serving Size:
 1
 cup (241ggrams)
@@ -1553,7 +1552,7 @@ Protein 5.8ggrams
 Mussels,"146
 ",20,6.3,3.8,0,314,"
 3
-oz (85g)",,,,"Serving Size:
+oz (85g)","Serving Size:
 3
 oz (85ggrams)
 Amount Per Serving
@@ -1576,7 +1575,7 @@ Protein 20ggrams
 32%Iron"
 Nachos,1234,67,26,96,10,1744,"
 1
-order (550g)",,,,"Serving Size:
+order (550g)","Serving Size:
 1
 order (550ggrams)
 Amount Per Serving
@@ -1601,7 +1600,7 @@ Protein 67ggrams
 Omelette,"323
 ",21,1.4,25,0.6,533,"
 1
-3-egg omelet (178g)",,,,"Serving Size:
+3-egg omelet (178g)","Serving Size:
 1
 3-egg omelet (178ggrams)
 Amount Per Serving
@@ -1625,7 +1624,7 @@ Protein 21ggrams
 7.3%Calcium"
 Onion rings,1004,14,115,54,13,1951,"
 1
-order (282g)",,,,"Serving Size:
+order (282g)","Serving Size:
 1
 order (282ggrams)
 Amount Per Serving
@@ -1650,7 +1649,7 @@ Protein 14ggrams
 Oysters,"41
 ",4.7,2.5,1.2,0,53,"
 1
-medium (25g)",,,,"Oysters
+medium (25g)","Oysters
 Serving Size:
 1
 medium (25ggrams)
@@ -1675,7 +1674,7 @@ Protein 4.7ggrams
 Pad thai,"838
 ",64,46,45,18,1301,"
 1
-serving (about 2.5 cups) (494g)",,,,"Pad Thai
+serving (about 2.5 cups) (494g)","Pad Thai
 Serving Size:
 1
 serving (about 2.5 cups) (494ggrams)
@@ -1698,7 +1697,7 @@ Protein 64ggrams"
 Paella,"442
 ",25,34,22,2.6,812,"
 1
-cup (241g)",,,,"
+cup (241g)","
 Paella
 Serving Size:
 1
@@ -1724,7 +1723,7 @@ Protein 25ggrams
 Pancakes,"91
 ",2.6,11,3.9,0,176,"
 1
-pancake (5"") (40g)",,,,"Pancakes
+pancake (5"") (40g)","Pancakes
 Serving Size:
 1
 pancake (5"") (40ggrams)
@@ -1749,7 +1748,7 @@ Protein 2.6ggrams
 Panna cotta,"390
 ",2.8,19,34,18,43,"
 0.5
-cup (122g)",,,,"
+cup (122g)","
 Panna Cotta
 Serving Size:
 0.5
@@ -1775,7 +1774,7 @@ Protein 2.8ggrams
 Peking duck,"663
 ",30,42,41,29,925,"
 0.3
-duck with sauce (275g)",,,,"
+duck with sauce (275g)","
 Peking Duck
 Serving Size:
 0.3
@@ -1801,7 +1800,7 @@ Protein 30ggrams
 Pho,"638
 ",47,78,14,14,3268,"
 1
-bowl (3 cups) (710g)",,,,"
+bowl (3 cups) (710g)","
 Pho
 Serving Size:
 1
@@ -1827,7 +1826,7 @@ Protein 47ggrams
 Pizza,"285
 ",12,36,10,3.8,640,"
 1
-slice (107g)",,,,"
+slice (107g)","
 Pizza
 Serving Size:
 1
@@ -1853,7 +1852,7 @@ Protein 12ggrams
 Pork chop,"328
 ",40,0,17,0,86,"
 1
-chop without refuse (157g)",,,,"Pork Chop
+chop without refuse (157g)","Pork Chop
 Serving Size:
 1
 chop without refuse (157ggrams)
@@ -1877,7 +1876,7 @@ Protein 40ggrams
 Poutine,"886
 ",28,66,57,1.4,1588,"
 1
-restaurant serving (400g)",,,,"
+restaurant serving (400g)","
 Poutine
 Serving Size:
 1
@@ -1903,7 +1902,7 @@ Protein 28ggrams
 Prime rib,"290
 ",19,0,23,0,54,"
 3
-oz (85g)",,,,"Prime Rib
+oz (85g)","Prime Rib
 Serving Size:
 3
 oz (85ggrams)
@@ -1927,7 +1926,7 @@ Protein 19ggrams
 Pulled pork sandwich,"532
 ",34,81,7.5,54,2077,"
 1
-sandwich (304g)",,,,"Pulled Pork Sandwich
+sandwich (304g)","Pulled Pork Sandwich
 Serving Size:
 1
 sandwich (304ggrams)
@@ -1952,7 +1951,7 @@ Protein 34ggrams
 Ramen,"954
 ",48,111,35,6.7,2691,"
 1
-bowl (3 cups) (707g)",,,,"
+bowl (3 cups) (707g)","
 Ramen
 Serving Size:
 1
@@ -1978,7 +1977,7 @@ Protein 48ggrams
 Ravioli,"41
 ",2.1,4.5,1.6,0.1,60,"
 1
-ravioli (23g)",,,,"Ravioli
+ravioli (23g)","Ravioli
 Serving Size:
 1
 ravioli (23ggrams)
@@ -2003,7 +2002,7 @@ Protein 2.1ggrams
 Red velvet cake,"368
 ",4.2,36,23,25,318,"
 1
-piece (109g)",,,,"
+piece (109g)","
 Red Velvet Cake
 Serving Size:
 1
@@ -2029,7 +2028,7 @@ Protein 4.2ggrams
 Risotto,"413
 ",14,54,13,4.7,1451,"
 1
-cup (337g)",,,,"Risotto
+cup (337g)","Risotto
 Serving Size:
 1
 cup (337ggrams)
@@ -2054,7 +2053,7 @@ Protein 14ggrams
 Samosa,"261
 ",3.5,24,17,1.6,423,"
 1
-samosa (100g)",,,,"Serving Size:
+samosa (100g)","Serving Size:
 1
 samosa (100ggrams)
 Amount Per Serving
@@ -2079,7 +2078,7 @@ Protein 3.5ggrams
 Sashimi,"35
 ",5.3,0.3,1.2,0,43,"
 1
-piece (28g)",,,,"Sashimi
+piece (28g)","Sashimi
 Serving Size:
 1
 piece (28ggrams)
@@ -2106,7 +2105,7 @@ Protein 5.3ggrams
 Scallops,"14
 ",2.7,0.7,0.1,0,87,"
 1
-scallop (13g)",,,,"
+scallop (13g)","
 Scallops
 Serving Size:
 1
@@ -2132,7 +2131,7 @@ Protein 2.7ggrams
 Seaweed salad,"106
 ",2.9,8,7.3,3.2,1144,"
 1
-cup (93g)",,,,"
+cup (93g)","
 Seaweed Salad
 Serving Size:
 1
@@ -2158,7 +2157,7 @@ Protein 2.9ggrams
 Shrimp and grits,"716
 ",46,42,40,1.3,2259,"
 2
-cups (480g)",,,,"
+cups (480g)","
 Shrimp And Grits
 Serving Size:
 2
@@ -2184,7 +2183,7 @@ Protein 46ggrams
 Spaghetti bolognese,"667
 ",35,84,22,14,637,"
 1
-serving (about 2 cups) (660g)",,,,"
+serving (about 2 cups) (660g)","
 Spaghetti Bolognese
 Serving Size:
 1
@@ -2207,7 +2206,7 @@ Sugars 14ggrams
 Protein 35ggrams"
 Spaghetti carbonara,1018,44,133,33,2.5,965,"
 1
-plate (about 3 cups) (512g)",,,,"
+plate (about 3 cups) (512g)","
 Spaghetti Carbonara
 Serving Size:
 1
@@ -2231,7 +2230,7 @@ Protein 44ggrams"
 Spring rolls,"148
 ",3.7,19,6.2,0.9,270,"
 1
-roll (64g)",,,,"Spring Rolls
+roll (64g)","Spring Rolls
 Serving Size:
 1
 roll (64ggrams)
@@ -2256,7 +2255,7 @@ Protein 3.7ggrams
 Steak,"614
 ",58,0,41,0,115,"
 1
-steak (221g)",,,,"Serving Size:
+steak (221g)","Serving Size:
 1
 steak (221ggrams)
 Amount Per Serving
@@ -2281,7 +2280,7 @@ Protein 58ggrams
 Strawberry shortcake,"485
 ",6.7,52,29,23,322,"
 1
-piece (283g)",,,,"
+piece (283g)","
 Strawberry Shortcake
 Serving Size:
 1
@@ -2307,7 +2306,7 @@ Protein 6.7ggrams
 Sushi,"349
 ",7.8,38,19,7,537,"
 1
-roll (8 pieces) (211g)",,,,"
+roll (8 pieces) (211g)","
 Sushi
 Serving Size:
 1
@@ -2335,7 +2334,7 @@ Protein 7.8ggrams
 Tacos,"210
 ",9.4,21,9.9,1.6,571,"
 1
-taco (102g)",,,,"Serving Size:
+taco (102g)","Serving Size:
 1
 taco (102ggrams)
 Amount Per Serving
@@ -2360,7 +2359,7 @@ Protein 9.4ggrams
 Takoyaki,"58
 ",3,5.8,2.5,0.1,161,"
 1
-piece (39g)",,,,"Takoyaki
+piece (39g)","Takoyaki
 Serving Size:
 1
 piece (39ggrams)
@@ -2387,7 +2386,7 @@ Protein 3ggrams
 Tiramisu,"572
 ",8.3,35,44,21,300,"
 1
-piece (174g)",,,,"Serving Size:
+piece (174g)","Serving Size:
 1
 piece (174ggrams)
 Tiramisu
@@ -2411,7 +2410,7 @@ Iron 1mg"
 Tuna tartare,"98
 ",7.7,1.9,6.8,0.2,381,"
 0.3
-cup (56g)",,,,"
+cup (56g)","
 Tuna Tartare
 Serving Size:
 0.3
@@ -2437,7 +2436,7 @@ Protein 7.7ggrams
 Waffles,"218
 ",5.9,25,11,0,383,"
 1
-waffle, round (7"" dia) (75g)",,,,"
+waffle, round (7"" dia) (75g)","
 Waffles
 Serving Size:
 1
@@ -2458,4 +2457,3 @@ Protein 5.9ggrams
 3.4%Vitamin A
 0.5%Vitamin C
 15%Calcium"
-,,,,,,,,,,,
