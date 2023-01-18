@@ -1,11 +1,11 @@
-,Calories,Protein,Carbs,Fat,Sugar,Sodium,Serving,Note
-Apple pie,296,2.4,43.0,14.0,20.0,251,"1 piece (1/8 of 9"" dia)(125g)",Apple pie
-Baby back ribs,110,8.0,2.2,7.5,1.8,88,medium rib (40g),Baby back ribs
-Baklava,310,5.5,29.0,20.0,16.0,213,1 piece,Baklava
-Beef carpaccio,181,13.0,2.0,13.0,0.7,266,2 oz portion (78g),Beef carpaccio
-Beef tartare,552,33.0,5.7,44.0,1.8,403,1 cup (224g),Beef tartare
+,Calories,Protein,Carbs,Fat,Sugar,Sodium,Serving,Note,,
+Apple pie,296,2.4,43,14,20,251,"1 piece (1/8 of 9"" dia)(125g)",Apple pie,,
+Baby back ribs,110,8,2.2,7.5,1.8,88,medium rib (40g),Baby back ribs,,
+Baklava,310,5.5,29,20,16,213,1 piece,Baklava,,
+Beef carpaccio,181,13,2,13,0.7,266,2 oz portion (78g),Beef carpaccio,,
+Beef tartare,552,33,5.7,44,1.8,403,1 cup (224g),Beef tartare,,
 Beet salad,"598
-",11.0,24.0,52.0,18.0,577,"1
+",11,24,52,18,577,"1
 salad (about 2 cups) (259g)","Beet Salad
 Serving Size:
 1
@@ -26,9 +26,9 @@ Total Carbohydrates 24ggrams8%Daily Value
 Dietary Fiber 4.6ggrams18%Daily Value
 Sugars 18ggrams
 Protein 11ggrams
-9.4%Vitamin A"
+9.4%Vitamin A",,
 Beignets,"262
-",6.0,40.0,8.5,7.7,135,"
+",6,40,8.5,7.7,135,"
 1
 piece (90g)","Beignets
 Serving Size:
@@ -51,8 +51,8 @@ Dietary Fiber 1.3ggrams5%Daily Value
 Sugars 7.7ggrams
 Protein 6ggrams
 1.1%Vitamin A
-0.4%Vitamin C"
-Bibimbap,1000,19.0,107.0,57.0,18.0,"2,670","
+0.4%Vitamin C",,
+Bibimbap,1000,19,107,57,18,"2,670","
 1
 Serving (645g)","Serving Size:
 1
@@ -74,9 +74,9 @@ Protein 19ggrams
 20%Vitamin C
 15%Calcium
 4.5%Iron
-* Percent Daily Values are based on a 2000 calorie diet."
+* Percent Daily Values are based on a 2000 calorie diet.",,
 Bread pudding,"377
-",7.7,72.0,7.3,55.0,190,"
+",7.7,72,7.3,55,190,"
 1
 cup (200g)","Bread Pudding
 Serving Size:
@@ -99,8 +99,8 @@ Dietary Fiber 1.2ggrams5%Daily Value
 Sugars 55ggrams
 Protein 7.7ggrams
 7.9%Vitamin A
-2.6%Vitamin C"
-Breakfast burrito,657,29.0,72.0,28.0,1.4,"1,522","
+2.6%Vitamin C",,
+Breakfast burrito,657,29,72,28,1.4,"1,522","
 1
 large burrito (388g)","Breakfast Burrito
 Serving Size:
@@ -123,8 +123,8 @@ Dietary Fiber 2.7ggrams11%Daily Value
 Sugars 1.4ggrams
 Protein 29ggrams
 30%Vitamin A
-55%Vitamin C"
-Bruschetta,72,1.3,6.2,4.9,1.0,103,"
+55%Vitamin C",,
+Bruschetta,72,1.3,6.2,4.9,1,103,"
 1
 piece (35g)","Bruschetta
 Serving Size:
@@ -147,9 +147,9 @@ Dietary Fiber 0.5ggrams2%Daily Value
 Sugars 1ggrams
 Protein 1.3ggrams
 5.1%Vitamin A
-4.6%Vitamin C"
+4.6%Vitamin C",,
 Caesar salad,"481
-",10.0,23.0,40.0,4.9,"1,152","
+",10,23,40,4.9,"1,152","
 1
 salad (about 3 cups) (305g)","Caesar Salad
 Serving Size:
@@ -173,8 +173,8 @@ Sugars 4.9ggrams
 Protein 10ggrams
 381%Vitamin A
 15%Vitamin C
-19%Calcium"
-Cannoli,233,6.0,18.0,15.0,6.3,37,"
+19%Calcium",,
+Cannoli,233,6,18,15,6.3,37,"
 1
 cannoli (80g)","Serving Size:
 1
@@ -196,9 +196,9 @@ Sugars 6.3ggrams
 Protein 6ggrams
 Vitamin D 0mcgmicrograms1%
 Calcium 85mgmilligrams7%
-Iron 0mg"
+Iron 0mg",,
 Caprese salad,"220
-",13.0,4.7,17.0,2.8,439,"
+",13,4.7,17,2.8,439,"
 1
 cup (161g)","
 Caprese Salad
@@ -222,9 +222,9 @@ Dietary Fiber 1.1ggrams4%Daily Value
 Sugars 2.8ggrams
 Protein 13ggrams
 24%Vitamin A
-20%"
+20%",,
 Carrot cake,"577
-",6.6,73.0,30.0,51.0,415,"
+",6.6,73,30,51,415,"
 1
 piece (173g)","
 Carrot Cake
@@ -248,8 +248,8 @@ Dietary Fiber 1.5ggrams6%Daily Value
 Sugars 51ggrams
 Protein 6.6ggrams
 105%Vitamin A
-3%"
-Ceviche,82,15.0,2.6,1.3,1.0,436,"
+3%",,
+Ceviche,82,15,2.6,1.3,1,436,"
 0.5
 cup (121g)","
 Ceviche
@@ -273,9 +273,9 @@ Dietary Fiber 0.5ggrams2%Daily Value
 Sugars 1ggrams
 Protein 15ggrams
 3.5%Vitamin A
-12%"
+12%",,
 Cheesecake,"401
-",6.9,32.0,28.0,27.0,548,"
+",6.9,32,28,27,548,"
 1
 piece (1 NLEA serving) (125g)","Cheesecake
 Serving Size:
@@ -297,9 +297,9 @@ Dietary Fiber 0.5ggrams2%Daily Value
 Sugars 27ggrams
 Protein 6.9ggrams
 14%Vitamin A
-0.8%Vitamin C"
+0.8%Vitamin C",,
 Cheese plate,"662
-",45.0,8.3,50.0,0.5,"1,784","
+",45,8.3,50,0.5,"1,784","
 1
 serving (about 6 oz) (170g)","
 Cheese Plate
@@ -321,9 +321,9 @@ Potassium 234mgmilligrams7%Daily Value
 Total Carbohydrates 8.3ggrams3%Daily Value
 Dietary Fiber 0ggrams0%Daily Value
 Sugars 0.5ggrams
-Protein 45ggrams"
+Protein 45ggrams",,
 Chicken curry,"243
-",28.0,7.5,11.0,2.0,73,"
+",28,7.5,11,2,73,"
 1
 cup (235g)","
 Chicken Curry
@@ -347,8 +347,8 @@ Dietary Fiber 1.5ggrams6%Daily Value
 Sugars 2ggrams
 Protein 28ggrams
 11%Vitamin A
-8.1%"
-Chicken quesadilla,1069,61.0,92.0,50.0,6.3,"1,815","
+8.1%",,
+Chicken quesadilla,1069,61,92,50,6.3,"1,815","
 1
 quesadilla (494g)","Serving Size:
 1
@@ -372,7 +372,7 @@ Protein 61ggrams
 38%Vitamin A
 146%Vitamin C
 37%Calcium
-39%"
+39%",,
 Chicken wings,88,4.5,2.6,6.5,0.1,105,"
 1
 wingette or drummette (27g)","
@@ -395,9 +395,9 @@ Potassium 46mgmilligrams1%Daily Value
 Total Carbohydrates 2.6ggrams1%Daily Value
 Dietary Fiber 0.1ggrams0%Daily Value
 Sugars 0.1ggrams
-Protein 4.5ggrams"
+Protein 4.5ggrams",,
 Chocolate cake,"424
-",3.8,58.0,22.0,44.0,379,"
+",3.8,58,22,44,379,"
 1
 piece (109g)","Serving Size:
 1
@@ -419,9 +419,9 @@ Sugars 44ggrams
 Protein 3.8ggrams
 Vitamin D 0mcgmicrograms0%
 Calcium 33mgmilligrams3%
-Iron 3mg"
+Iron 3mg",,
 Chocolate mousse,"455
-",8.4,32.0,32.0,30.0,77,"
+",8.4,32,32,30,77,"
 0.5
 cup (202g)","Serving Size:
 0.5
@@ -442,7 +442,7 @@ Sugars 30ggrams
 Protein 8.4ggrams
 Calcium 195mgmilligrams15%
 Iron 1mgmilligrams6%
-Potassium 289mgmilligrams6%"
+Potassium 289mgmilligrams6%",,
 Churros,"103
 ",0.5,8.4,7.7,4.8,44,"
 1
@@ -468,9 +468,9 @@ Dietary Fiber 0.2ggrams1%Daily Value
 Sugars 4.8ggrams
 Protein 0.5ggrams
 0%Vitamin A
-0%"
+0%",,
 Clam chowder,"201
-",6.6,21.0,10.0,0.6,871,"
+",6.6,21,10,0.6,871,"
 1
 cup (254g)","
 Clam Chowder
@@ -492,9 +492,9 @@ Protein 6.6ggrams
 2.9%Calcium
 6.8%Iron
 * Percent Daily Values are based on a 2000 calorie diet.
-Cholesterol FreeLow CholesterolGood Source of Fiber"
+Cholesterol FreeLow CholesterolGood Source of Fiber",,
 Club sandwich,"817
-",56.0,42.0,46.0,7.1,"1,867","
+",56,42,46,7.1,"1,867","
 1
 sandwich (349g)","Club Sandwich
 Serving Size:
@@ -517,9 +517,9 @@ Dietary Fiber 3.2ggrams13%Daily Value
 Sugars 7.1ggrams
 Protein 56ggrams
 72%Vitamin A
-12%Vitamin C"
+12%Vitamin C",,
 Crab cakes,"362
-",23.0,15.0,23.0,3.0,"1,286","
+",23,15,23,3,"1,286","
 1
 medium cake (210g)","Crab Cakes
 Serving Size:
@@ -542,9 +542,9 @@ Dietary Fiber 1.2ggrams5%Daily Value
 Sugars 3ggrams
 Protein 23ggrams
 6.4%Vitamin A
-46%Vitamin C"
+46%Vitamin C",,
 Creme brulee,"687
-",8.3,30.0,60.0,30.0,54,"
+",8.3,30,60,30,54,"
 1
 ramekin (200g)","
 Creme Brulee
@@ -568,9 +568,9 @@ Dietary Fiber 0ggrams0%Daily Value
 Sugars 30ggrams
 Protein 8.3ggrams
 51%Vitamin A
-1.5%"
+1.5%",,
 Croque madame,"721
-",37.0,57.0,38.0,10.0,"1,722","
+",37,57,38,10,"1,722","
 1
 sandwich (363g)","
 Croque Madame
@@ -594,9 +594,9 @@ Dietary Fiber 2.8ggrams11%Daily Value
 Sugars 10ggrams
 Protein 37ggrams
 23%Vitamin A
-3.8%"
+3.8%",,
 Cup cakes,"292
-",2.6,40.0,15.0,30.0,261,"
+",2.6,40,15,30,261,"
 1
 cupcake (75g)","Serving Size:
 1
@@ -618,7 +618,7 @@ Sugars 30ggrams
 Protein 2.6ggrams
 Vitamin D 0mcgmicrograms0%
 Calcium 22mgmilligrams2%
-Iron 2mg"
+Iron 2mg",,
 Deviled eggs,"68
 ",3.2,0.5,5.8,0.1,69,"
 1
@@ -643,9 +643,9 @@ Dietary Fiber 0.1ggrams1%Daily Value
 Sugars 0.1ggrams
 Protein 3.2ggrams
 2.8%Vitamin A
-0%Vitamin C"
+0%Vitamin C",,
 Donuts,"253
-",3.7,29.0,14.0,14.0,190,"
+",3.7,29,14,14,190,"
 1
 doughnut, medium (60g)","Donut
 Serving Size:
@@ -668,9 +668,9 @@ Dietary Fiber 1.3ggrams5%Daily Value
 Sugars 14ggrams
 Protein 3.7ggrams
 0.3%Vitamin A
-1.2%Vitamin C"
+1.2%Vitamin C",,
 Dumplings,"74
-",2.0,12.0,1.7,0.5,271,"
+",2,12,1.7,0.5,271,"
 1
 medium dumpling (32g)","
 Dumplings
@@ -694,9 +694,9 @@ Sugars 0.5ggrams
 Protein 2ggrams
 1.7%Vitamin A
 0.2%Vitamin C
-6.4%"
+6.4%",,
 Edamame,"94
-",9.2,6.9,4.0,1.7,5,"
+",9.2,6.9,4,1.7,5,"
 0.5
 cup, shelled (78g)","Edamame
 Serving Size:
@@ -719,9 +719,9 @@ Dietary Fiber 4ggrams16%Daily Value
 Sugars 1.7ggrams
 Protein 9.2ggrams
 4.6%Vitamin A
-7.9%Vitamin C"
+7.9%Vitamin C",,
 Eggs benedict,"733
-",30.0,30.0,55.0,1.2,"1,946","
+",30,30,55,1.2,"1,946","
 1
 serving (2 eggs) (282g)","Serving Size:
 1
@@ -745,9 +745,9 @@ Protein 30ggrams
 41%Vitamin A
 12%Vitamin C
 16%Calcium
-19%"
+19%",,
 Escargots,"77
-",14.0,1.7,1.2,0.0,60,"
+",14,1.7,1.2,0,60,"
 3
 oz (85g)","
 Escargots
@@ -771,7 +771,7 @@ Sugars 0ggrams
 Protein 14ggrams
 1.7%Vitamin A
 0%Vitamin C
-0.7%"
+0.7%",,
 Falafel,"83
 ",1.1,3.7,7.3,0.6,30,"
 1
@@ -795,9 +795,9 @@ Potassium 39mgmilligrams1%Daily Value
 Total Carbohydrates 3.7ggrams1%Daily Value
 Dietary Fiber 0.9ggrams4%Daily Value
 Sugars 0.6ggrams
-Protein 1.1ggrams"
+Protein 1.1ggrams",,
 Filet mignon,"227
-",22.0,0.0,15.0,0.0,46,"
+",22,0,15,0,46,"
 3
 oz (85g)","
 Filet Mignon
@@ -843,9 +843,9 @@ Sugars 0ggrams
 Protein 22ggrams
 0%Vitamin A
 0%Vitamin C
-1.2"
+1.2",,
 Fish and chips,"688
-",43.0,71.0,26.0,2.0,"1,403","
+",43,71,26,2,"1,403","
 1
 serving (513g)","Fish And Chips
 Serving Size:
@@ -868,9 +868,9 @@ Dietary Fiber 4.8ggrams19%Daily Value
 Sugars 2ggrams
 Protein 43ggrams
 4.3%Vitamin A
-47%Vitamin C"
+47%Vitamin C",,
 Foie gras,"60
-",1.5,0.6,5.7,0.0,91,"
+",1.5,0.6,5.7,0,91,"
 1
 tbsp (13g)","
 Foie Gras
@@ -894,9 +894,9 @@ Protein 1.5ggrams
 8.7%Vitamin A
 0.4%Vitamin C
 0.7%Calcium
-4%"
+4%",,
 French fries,"365
-",4.0,48.0,17.0,0.4,246,"
+",4,48,17,0.4,246,"
 1
 serving medium (117g)","Serving Size:
 1
@@ -919,9 +919,9 @@ Sugars 0.4ggrams
 Protein 4ggrams
 0%Vitamin A
 9.2%Vitamin C
-1.6%Calcium"
+1.6%Calcium",,
 French onion soup,"478
-",21.0,40.0,24.0,6.4,815,"
+",21,40,24,6.4,815,"
 1
 crock (350g)","
 French Onion Soup
@@ -945,9 +945,9 @@ Dietary Fiber 2.3ggrams9%Daily Value
 Sugars 6.4ggrams
 Protein 21ggrams
 10%Vitamin A
-7.6%"
+7.6%",,
 French toast,"219
-",7.3,23.0,11.0,4.0,237,"
+",7.3,23,11,4,237,"
 1
 slice without syrup (84g)","
 French Toast
@@ -971,9 +971,9 @@ Dietary Fiber 1.1ggrams4%Daily Value
 Sugars 4ggrams
 Protein 7.3ggrams
 8.3%Vitamin A
-0.2%"
+0.2%",,
 Fried calamari,"356
-",18.0,37.0,15.0,0.1,252,"
+",18,37,15,0.1,252,"
 1
 cup (143g)","
 Fried Calamari
@@ -997,9 +997,9 @@ Dietary Fiber 1.3ggrams5%Daily Value
 Sugars 0.1ggrams
 Protein 18ggrams
 2.9%Vitamin A
-9.5%"
+9.5%",,
 Fried rice,"238
-",5.5,45.0,4.1,0.8,530,"
+",5.5,45,4.1,0.8,530,"
 1
 cup (137g)","Fried Rice
 Serving Size:
@@ -1022,9 +1022,9 @@ Dietary Fiber 1.5ggrams6%Daily Value
 Sugars 0.8ggrams
 Protein 5.5ggrams
 7.6%Vitamin A
-8.7%Vitamin C"
+8.7%Vitamin C",,
 Frozen yogurt,"221
-",5.2,38.0,6.3,35.0,110,"
+",5.2,38,6.3,35,110,"
 1
 cup (174g)","Frozen Yogurt
 Serving Size:
@@ -1047,9 +1047,9 @@ Sugars 35ggrams
 Protein 5.2ggrams
 6.1%Vitamin A
 2%Vitamin C
-13%Calcium"
+13%Calcium",,
 Garlic bread,"151
-",3.6,18.0,7.1,1.6,234,"
+",3.6,18,7.1,1.6,234,"
 1
 slice presliced (43g)","
 Garlic Bread
@@ -1073,9 +1073,9 @@ Dietary Fiber 1.1ggrams4%Daily Value
 Sugars 1.6ggrams
 Protein 3.6ggrams
 0.4%Vitamin A
-0.1%"
+0.1%",,
 Gnocchi,"254
-",7.7,52.0,1.5,0.8,18,"
+",7.7,52,1.5,0.8,18,"
 1
 cup (127g)","Serving Size:
 1
@@ -1098,9 +1098,9 @@ Sugars 0.8ggrams
 Protein 7.7ggrams
 1.1%Vitamin A
 14%Vitamin C
-1.3%Calcium"
+1.3%Calcium",,
 Greek salad,"179
-",5.1,7.4,15.0,4.2,370,"
+",5.1,7.4,15,4.2,370,"
 1
 cup (159g)","Greek Salad
 Serving Size:
@@ -1124,10 +1124,10 @@ Sugars 4.2ggrams
 Protein 5.1ggrams
 14%Vitamin A
 35%Vitamin C
-13%"
+13%",,
 Grilled cheese sandwich,"366
 ","12
-",28.0,23.0,5.4,886,"
+",28,23,5.4,886,"
 1
 sandwich (106g)","Grilled Cheese Sandwich
 Serving Size:
@@ -1169,9 +1169,9 @@ Nutritionix sub-recipe for 1 sandwich:
 Serving	Ingredient	Calories
 2 slices	white bread	133
 1 tbsp	butter	102
-2 slice	american cheese	131"
+2 slice	american cheese	131",,
 Grilled salmon,"468
-",50.0,0.0,28.0,0.0,138,"
+",50,0,28,0,138,"
 1
 fillet (227g)","Serving Size:
 1
@@ -1194,7 +1194,7 @@ Protein 50ggrams
 10%Vitamin A
 14%Vitamin C
 2.6%Calcium
-4.3%Iron"
+4.3%Iron",,
 Guacamole,"45
 ",0.6,2.6,4.1,0.2,127,"
 2
@@ -1219,7 +1219,7 @@ Dietary Fiber 1.8ggrams7%Daily Value
 Sugars 0.2ggrams
 Protein 0.6ggrams
 1.1%Vitamin A
-5.4%Vitamin C"
+5.4%Vitamin C",,
 Gyoza,"79
 ",3.5,7.4,3.8,0.4,140,"
 1
@@ -1245,9 +1245,9 @@ Dietary Fiber 0.5ggrams2%Daily Value
 Sugars 0.4ggrams
 Protein 3.5ggrams
 0.4%Vitamin A
-8.5%"
+8.5%",,
 Hamburger,"540
-",34.0,40.0,27.0,0.0,791,"
+",34,40,27,0,791,"
 1
 sandwich (226g)","Hamburger
 Serving Size:
@@ -1270,9 +1270,9 @@ Protein 34ggrams
 1.9%Vitamin C
 7.8%Calcium
 33%Iron
-* Percent Daily Values are based on a 2000 calorie diet."
+* Percent Daily Values are based on a 2000 calorie diet.",,
 Hot and sour soup,"91
-",6.0,10.0,2.8,1.0,876,"
+",6,10,2.8,1,876,"
 1
 cup (233g)","
 Hot And Sour Soup
@@ -1296,9 +1296,9 @@ Dietary Fiber 1.2ggrams5%Daily Value
 Sugars 1ggrams
 Protein 6ggrams
 1.6%Vitamin A
-0%"
+0%",,
 Hot dog,"155
-",5.6,1.3,14.0,0.6,409,"
+",5.6,1.3,14,0.6,409,"
 1
 frankfurter (48g)","Hot Dog
 Serving Size:
@@ -1321,9 +1321,9 @@ Sugars 0.6ggrams
 Protein 5.6ggrams
 0%Vitamin A
 0.4%Calcium
-3.3%Iron"
+3.3%Iron",,
 Huevos rancheros,"644
-",29.0,39.0,43.0,5.2,"1,561","
+",29,39,43,5.2,"1,561","
 1
 serving (450g)","
 Huevos Rancheros
@@ -1347,9 +1347,9 @@ Dietary Fiber 12ggrams48%Daily Value
 Sugars 5.2ggrams
 Protein 29ggrams
 23%Vitamin A
-52%"
+52%",,
 Hummus,"100
-",4.7,8.6,5.8,0.0,227,"
+",4.7,8.6,5.8,0,227,"
 0.3
 cup (60g)","
 Hummus
@@ -1373,9 +1373,9 @@ Protein 4.7ggrams
 0.4%Vitamin A
 0%Vitamin C
 1.8%Calcium
-8.1%"
+8.1%",,
 Ice cream,"273
-",4.6,31.0,15.0,28.0,106,"
+",4.6,31,15,28,106,"
 1
 cup (132g)","
 Ice Cream
@@ -1399,9 +1399,9 @@ Sugars 28ggrams
 Protein 4.6ggrams
 11%Vitamin A
 1.3%Vitamin C
-13%"
+13%",,
 Lasagna,"602
-",44.0,35.0,32.0,11.0,"1,576","
+",44,35,32,11,"1,576","
 1
 serving (about 1.5 cups) (385g)","
 Lasagna
@@ -1423,9 +1423,9 @@ Potassium 1041mgmilligrams30%Daily Value
 Total Carbohydrates 35ggrams12%Daily Value
 Dietary Fiber 3.9ggrams16%Daily Value
 Sugars 11ggrams
-Protein 44ggrams"
+Protein 44ggrams",,
 Lobster bisque,"232
-",14.0,8.0,14.0,4.5,316,"
+",14,8,14,4.5,316,"
 1
 serving (218g)","Lobster Bisque
 Serving Size:
@@ -1448,9 +1448,9 @@ Dietary Fiber 0.3ggrams1%Daily Value
 Sugars 4.5ggrams
 Protein 14ggrams
 24%Vitamin A
-3.9%Vitamin C"
+3.9%Vitamin C",,
 Lobster roll sandwich,"507
-",42.0,33.0,22.0,1.1,937,"
+",42,33,22,1.1,937,"
 1
 sandwich (254g)","
 Lobster Roll Sandwich
@@ -1474,9 +1474,9 @@ Dietary Fiber 2ggrams8%Daily Value
 Sugars 1.1ggrams
 Protein 42ggrams
 5.9%Vitamin A
-12%"
+12%",,
 Macaroni and cheese,"376
-",9.7,47.0,16.0,8.5,669,"
+",9.7,47,16,8.5,669,"
 1
 cup (198g)","Macaroni And Cheese
 Serving Size:
@@ -1499,9 +1499,9 @@ Dietary Fiber 2.4ggrams10%Daily Value
 Sugars 8.5ggrams
 Protein 9.7ggrams
 9.6%Calcium
-11%Iron"
+11%Iron",,
 Macarons,"43
-",0.9,6.0,1.9,5.2,18,"
+",0.9,6,1.9,5.2,18,"
 1
 cookie (11g)","Serving Size:
 1
@@ -1523,9 +1523,9 @@ Sugars 5.2ggrams
 Protein 0.9ggrams
 Vitamin D 0mcgmicrograms0%
 Calcium 7mgmilligrams1%
-Iron 0mg"
+Iron 0mg",,
 Miso soup,"59
-",5.8,3.5,3.0,1.2,"1,071","
+",5.8,3.5,3,1.2,"1,071","
 1
 cup (241g)","Miso Soup
 Serving Size:
@@ -1548,9 +1548,9 @@ Dietary Fiber 1.1ggrams4%Daily Value
 Sugars 1.2ggrams
 Protein 5.8ggrams
 1.3%Vitamin A
-1.8%Vitamin C"
+1.8%Vitamin C",,
 Mussels,"146
-",20.0,6.3,3.8,0.0,314,"
+",20,6.3,3.8,0,314,"
 3
 oz (85g)","Serving Size:
 3
@@ -1572,8 +1572,8 @@ Protein 20ggrams
 5.2%Vitamin A
 19%Vitamin C
 2.2%Calcium
-32%Iron"
-Nachos,1234,67.0,26.0,96.0,10.0,"1,744","
+32%Iron",,
+Nachos,1234,67,26,96,10,"1,744","
 1
 order (550g)","Serving Size:
 1
@@ -1596,9 +1596,9 @@ Sugars 10ggrams
 Protein 67ggrams
 56%Vitamin A
 25%Vitamin C
-69%Calcium"
+69%Calcium",,
 Omelette,"323
-",21.0,1.4,25.0,0.6,533,"
+",21,1.4,25,0.6,533,"
 1
 3-egg omelet (178g)","Serving Size:
 1
@@ -1621,8 +1621,8 @@ Sugars 0.6ggrams
 Protein 21ggrams
 18%Vitamin A
 0%Vitamin C
-7.3%Calcium"
-Onion rings,1004,14.0,115.0,54.0,13.0,"1,951","
+7.3%Calcium",,
+Onion rings,1004,14,115,54,13,"1,951","
 1
 order (282g)","Serving Size:
 1
@@ -1645,9 +1645,9 @@ Protein 14ggrams
 1%Vitamin A
 4.6%Calcium
 11%Iron
-* Percent Daily Values are based on a 2000 calorie diet."
+* Percent Daily Values are based on a 2000 calorie diet.",,
 Oysters,"41
-",4.7,2.5,1.2,0.0,53,"
+",4.7,2.5,1.2,0,53,"
 1
 medium (25g)","Oysters
 Serving Size:
@@ -1670,9 +1670,9 @@ Sugars 0ggrams
 Protein 4.7ggrams
 2.4%Vitamin A
 5.3%Vitamin C
-0.3%Calcium"
+0.3%Calcium",,
 Pad thai,"838
-",64.0,46.0,45.0,18.0,"1,301","
+",64,46,45,18,"1,301","
 1
 serving (about 2.5 cups) (494g)","Pad Thai
 Serving Size:
@@ -1693,9 +1693,9 @@ Potassium 791mgmilligrams23%Daily Value
 Total Carbohydrates 46ggrams15%Daily Value
 Dietary Fiber 4.4ggrams18%Daily Value
 Sugars 18ggrams
-Protein 64ggrams"
+Protein 64ggrams",,
 Paella,"442
-",25.0,34.0,22.0,2.6,812,"
+",25,34,22,2.6,812,"
 1
 cup (241g)","
 Paella
@@ -1719,9 +1719,9 @@ Dietary Fiber 1ggrams4%Daily Value
 Sugars 2.6ggrams
 Protein 25ggrams
 19%Vitamin A
-44%"
+44%",,
 Pancakes,"91
-",2.6,11.0,3.9,0.0,176,"
+",2.6,11,3.9,0,176,"
 1
 pancake (5"") (40g)","Pancakes
 Serving Size:
@@ -1744,9 +1744,9 @@ Protein 2.6ggrams
 0.2%Vitamin C
 6.7%Calcium
 4%Iron
-* Percent Daily Values are based on a 2000 calorie diet."
+* Percent Daily Values are based on a 2000 calorie diet.",,
 Panna cotta,"390
-",2.8,19.0,34.0,18.0,43,"
+",2.8,19,34,18,43,"
 0.5
 cup (122g)","
 Panna Cotta
@@ -1770,9 +1770,9 @@ Sugars 18ggrams
 Protein 2.8ggrams
 28%Vitamin A
 1.1%Vitamin C
-5.9%"
+5.9%",,
 Peking duck,"663
-",30.0,42.0,41.0,29.0,925,"
+",30,42,41,29,925,"
 0.3
 duck with sauce (275g)","
 Peking Duck
@@ -1796,9 +1796,9 @@ Dietary Fiber 2.6ggrams10%Daily Value
 Sugars 29ggrams
 Protein 30ggrams
 19%Vitamin A
-58%"
+58%",,
 Pho,"638
-",47.0,78.0,14.0,14.0,"3,268","
+",47,78,14,14,"3,268","
 1
 bowl (3 cups) (710g)","
 Pho
@@ -1822,9 +1822,9 @@ Dietary Fiber 5.8ggrams23%Daily Value
 Sugars 14ggrams
 Protein 47ggrams
 12%Vitamin A
-35%"
+35%",,
 Pizza,"285
-",12.0,36.0,10.0,3.8,640,"
+",12,36,10,3.8,640,"
 1
 slice (107g)","
 Pizza
@@ -1848,9 +1848,9 @@ Dietary Fiber 2.5ggrams10%Daily Value
 Sugars 3.8ggrams
 Protein 12ggrams
 7.7%Vitamin A
-2.5%"
+2.5%",,
 Pork chop,"328
-",40.0,0.0,17.0,0.0,86,"
+",40,0,17,0,86,"
 1
 chop without refuse (157g)","Pork Chop
 Serving Size:
@@ -1872,9 +1872,9 @@ Total Carbohydrates 0ggrams0%Daily Value
 Dietary Fiber 0ggrams0%Daily Value
 Sugars 0ggrams
 Protein 40ggrams
-0.2%Vitamin A"
+0.2%Vitamin A",,
 Poutine,"886
-",28.0,66.0,57.0,1.4,"1,588","
+",28,66,57,1.4,"1,588","
 1
 restaurant serving (400g)","
 Poutine
@@ -1898,9 +1898,9 @@ Dietary Fiber 5.1ggrams20%Daily Value
 Sugars 1.4ggrams
 Protein 28ggrams
 25%Vitamin A
-10%"
+10%",,
 Prime rib,"290
-",19.0,0.0,23.0,0.0,54,"
+",19,0,23,0,54,"
 3
 oz (85g)","Prime Rib
 Serving Size:
@@ -1922,9 +1922,9 @@ Dietary Fiber 0ggrams0%Daily Value
 Protein 19ggrams
 0%Vitamin A
 0%Vitamin C
-0."
+0.",,
 Pulled pork sandwich,"532
-",34.0,81.0,7.5,54.0,"2,077","
+",34,81,7.5,54,"2,077","
 1
 sandwich (304g)","Pulled Pork Sandwich
 Serving Size:
@@ -1947,9 +1947,9 @@ Dietary Fiber 2.9ggrams12%Daily Value
 Sugars 54ggrams
 Protein 34ggrams
 8.5%Vitamin A
-4.5%Vitamin C"
+4.5%Vitamin C",,
 Ramen,"954
-",48.0,111.0,35.0,6.7,"2,691","
+",48,111,35,6.7,"2,691","
 1
 bowl (3 cups) (707g)","
 Ramen
@@ -1973,7 +1973,7 @@ Dietary Fiber 6ggrams24%Daily Value
 Sugars 6.7ggrams
 Protein 48ggrams
 66%Vitamin A
-9%"
+9%",,
 Ravioli,"41
 ",2.1,4.5,1.6,0.1,60,"
 1
@@ -1998,9 +1998,9 @@ Dietary Fiber 0.3ggrams1%Daily Value
 Sugars 0.1ggrams
 Protein 2.1ggrams
 0.9%Vitamin A
-0%Vitamin C"
+0%Vitamin C",,
 Red velvet cake,"368
-",4.2,36.0,23.0,25.0,318,"
+",4.2,36,23,25,318,"
 1
 piece (109g)","
 Red Velvet Cake
@@ -2024,9 +2024,9 @@ Dietary Fiber 0.4ggrams1%Daily Value
 Sugars 25ggrams
 Protein 4.2ggrams
 17%Vitamin A
-0.4%"
+0.4%",,
 Risotto,"413
-",14.0,54.0,13.0,4.7,"1,451","
+",14,54,13,4.7,"1,451","
 1
 cup (337g)","Risotto
 Serving Size:
@@ -2049,9 +2049,9 @@ Dietary Fiber 1.5ggrams6%Daily Value
 Sugars 4.7ggrams
 Protein 14ggrams
 20%Vitamin A
-6%Vitamin C"
+6%Vitamin C",,
 Samosa,"261
-",3.5,24.0,17.0,1.6,423,"
+",3.5,24,17,1.6,423,"
 1
 samosa (100g)","Serving Size:
 1
@@ -2074,9 +2074,9 @@ Sugars 1.6ggrams
 Protein 3.5ggrams
 25%Vitamin A
 17%Vitamin C
-1.3%Calcium"
+1.3%Calcium",,
 Sashimi,"35
-",5.3,0.3,1.2,0.0,43,"
+",5.3,0.3,1.2,0,43,"
 1
 piece (28g)","Sashimi
 Serving Size:
@@ -2101,9 +2101,9 @@ Protein 5.3ggrams
 0.7%Vitamin A
 1%Vitamin C
 0.6%Calcium
-2.1%Iron"
+2.1%Iron",,
 Scallops,"14
-",2.7,0.7,0.1,0.0,87,"
+",2.7,0.7,0.1,0,87,"
 1
 scallop (13g)","
 Scallops
@@ -2127,9 +2127,9 @@ Dietary Fiber 0ggrams0%Daily Value
 Sugars 0ggrams
 Protein 2.7ggrams
 0%Vitamin A
-0%"
+0%",,
 Seaweed salad,"106
-",2.9,8.0,7.3,3.2,"1,144","
+",2.9,8,7.3,3.2,"1,144","
 1
 cup (93g)","
 Seaweed Salad
@@ -2153,9 +2153,9 @@ Dietary Fiber 1.7ggrams7%Daily Value
 Sugars 3.2ggrams
 Protein 2.9ggrams
 80%Vitamin A
-7.1%"
+7.1%",,
 Shrimp and grits,"716
-",46.0,42.0,40.0,1.3,"2,259","
+",46,42,40,1.3,"2,259","
 2
 cups (480g)","
 Shrimp And Grits
@@ -2179,9 +2179,9 @@ Dietary Fiber 2.7ggrams11%Daily Value
 Sugars 1.3ggrams
 Protein 46ggrams
 36%Vitamin A
-15%"
+15%",,
 Spaghetti bolognese,"667
-",35.0,84.0,22.0,14.0,637,"
+",35,84,22,14,637,"
 1
 serving (about 2 cups) (660g)","
 Spaghetti Bolognese
@@ -2203,8 +2203,8 @@ Potassium 1135mgmilligrams32%Daily Value
 Total Carbohydrates 84ggrams28%Daily Value
 Dietary Fiber 11ggrams44%Daily Value
 Sugars 14ggrams
-Protein 35ggrams"
-Spaghetti carbonara,1018,44.0,133.0,33.0,2.5,965,"
+Protein 35ggrams",,
+Spaghetti carbonara,1018,44,133,33,2.5,965,"
 1
 plate (about 3 cups) (512g)","
 Spaghetti Carbonara
@@ -2226,9 +2226,9 @@ Potassium 386mgmilligrams11%Daily Value
 Total Carbohydrates 133ggrams44%Daily Value
 Dietary Fiber 7.5ggrams30%Daily Value
 Sugars 2.5ggrams
-Protein 44ggrams"
+Protein 44ggrams",,
 Spring rolls,"148
-",3.7,19.0,6.2,0.9,270,"
+",3.7,19,6.2,0.9,270,"
 1
 roll (64g)","Spring Rolls
 Serving Size:
@@ -2251,9 +2251,9 @@ Dietary Fiber 0.9ggrams3%Daily Value
 Sugars 0.9ggrams
 Protein 3.7ggrams
 12%Vitamin A
-11%Vitamin C"
+11%Vitamin C",,
 Steak,"614
-",58.0,0.0,41.0,0.0,115,"
+",58,0,41,0,115,"
 1
 steak (221g)","Serving Size:
 1
@@ -2276,9 +2276,9 @@ Protein 58ggrams
 0%Vitamin A
 0%Vitamin C
 2.9%Calcium
-21%Iron"
+21%Iron",,
 Strawberry shortcake,"485
-",6.7,52.0,29.0,23.0,322,"
+",6.7,52,29,23,322,"
 1
 piece (283g)","
 Strawberry Shortcake
@@ -2302,9 +2302,9 @@ Dietary Fiber 3.9ggrams16%Daily Value
 Sugars 23ggrams
 Protein 6.7ggrams
 17%Vitamin A
-149%"
+149%",,
 Sushi,"349
-",7.8,38.0,19.0,7.0,537,"
+",7.8,38,19,7,537,"
 1
 roll (8 pieces) (211g)","
 Sushi
@@ -2330,9 +2330,9 @@ Protein 7.8ggrams
 4.2%Vitamin A
 7.3%Vitamin C
 4.4%Calcium
-7.2%Iron"
+7.2%Iron",,
 Tacos,"210
-",9.4,21.0,9.9,1.6,571,"
+",9.4,21,9.9,1.6,571,"
 1
 taco (102g)","Serving Size:
 1
@@ -2355,9 +2355,9 @@ Sugars 1.6ggrams
 Protein 9.4ggrams
 3.2%Vitamin A
 0.2%Vitamin C
-9.7%Calcium"
+9.7%Calcium",,
 Takoyaki,"58
-",3.0,5.8,2.5,0.1,161,"
+",3,5.8,2.5,0.1,161,"
 1
 piece (39g)","Takoyaki
 Serving Size:
@@ -2382,9 +2382,9 @@ Protein 3ggrams
 0.9%Vitamin A
 1%Vitamin C
 2.4%Calcium
-4.9%Iron"
+4.9%Iron",,
 Tiramisu,"572
-",8.3,35.0,44.0,21.0,300,"
+",8.3,35,44,21,300,"
 1
 piece (174g)","Serving Size:
 1
@@ -2406,7 +2406,7 @@ Sugars 21ggrams
 Protein 8.3ggrams
 Vitamin D 2mcgmicrograms8%
 Calcium 118mgmilligrams9%
-Iron 1mg"
+Iron 1mg",,
 Tuna tartare,"98
 ",7.7,1.9,6.8,0.2,381,"
 0.3
@@ -2432,9 +2432,9 @@ Dietary Fiber 1ggrams4%Daily Value
 Sugars 0.2ggrams
 Protein 7.7ggrams
 1.3%Vitamin A
-6.4%"
+6.4%",,
 Waffles,"218
-",5.9,25.0,11.0,0.0,383,"
+",5.9,25,11,0,383,"
 1
 waffle, round (7"" dia) (75g)","
 Waffles
@@ -2456,4 +2456,4 @@ Total Carbohydrates 25ggrams8%Daily Value
 Protein 5.9ggrams
 3.4%Vitamin A
 0.5%Vitamin C
-15%Calcium"
+15%Calcium",,
