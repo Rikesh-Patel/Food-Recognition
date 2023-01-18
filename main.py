@@ -50,7 +50,7 @@ with tab1:
    classes = classes[:-1]
    list.close()
 
-   nutrients = pd.read_csv('nutrient_facts.csv', index_col = 0)
+   nutrients = pd.read_csv('nutrient_facts.csv', index_col = 0, encoding='latin-1')
    history= pd.read_csv('food.csv', index_col = 0)
 
 
@@ -111,7 +111,7 @@ with tab1:
 with tab2:
     st.write("### Select which food(s) you would like to learn more about!")
     
-    nutrients = pd.read_csv('nutrient_facts.csv', index_col = 0)
+    nutrients = pd.read_csv('nutrient_facts.csv', index_col = 0, encoding='latin-1')
     
     
     selected = st.multiselect("Select a food.", list(nutrients.index))
