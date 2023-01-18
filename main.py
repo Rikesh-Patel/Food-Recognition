@@ -68,7 +68,7 @@ with tab1:
 
 
    if image is not None: # if the image is an actual file then
-       col1, col2 = st.beta_columns(2) # split our layout into two columns
+       col1, col2 = st.columns(2) # split our layout into two columns
        with col1: # the first column in our layout will display the image
            image_to_share = Image.open(image)
            st.image(image_to_share, width=265)
@@ -78,8 +78,9 @@ with tab1:
            st.write('# {}'.format(predicted_class))
            food = nutrients.loc[predicted_class].T
            st.write(food)
+           history = pd.read_csv('food.csv')
            history.append({'Food':food, 'Date': date.today()}, ignore_index=True)
-           open('food.csv', 'w').write(df.to_csv())
+           open('food.csv', 'w').write(history.to_csv())
            #calories_remaining = calories_needed - food.iloc[0]
            #st.write("Using the Harris–Benedict BMR Equation based upon your gender, age, weight, height, and activity level")
            #st.write("#### You will have {} calories remaining".format(round(calories_remaining)))
@@ -88,24 +89,24 @@ with tab1:
 
 
    # Ask the user for their information so we can generate their calories required
-   gender = st.selectbox('Your Gender/Sex', ['Male', 'Female', 'Gender Diverse'])
-   age = st.slider('Age', 0, 110, 20)
-   weight = st.slider("Current Weight In Pounds", 0, 300, 150)
-   height = st.slider("Current Height in Cm", 0, 250, 140)
-   activity = st.selectbox("Your Activity Level", ["High", "Medium", "Low"])
+#    gender = st.selectbox('Your Gender/Sex', ['Male', 'Female', 'Gender Diverse'])
+#    age = st.slider('Age', 0, 110, 20)
+#    weight = st.slider("Current Weight In Pounds", 0, 300, 150)
+#    height = st.slider("Current Height in Cm", 0, 250, 140)
+#    activity = st.selectbox("Your Activity Level", ["High", "Medium", "Low"])
 
-   multipler = {"High" : 2.25, "Medium" : 1.76, "Low" : 1.53} # The Basal multipler based upon the activity level(Harris–Benedict BMR)
+#    multipler = {"High" : 2.25, "Medium" : 1.76, "Low" : 1.53} # The Basal multipler based upon the activity level(Harris–Benedict BMR)
 
-   act_multipler = multipler[activity]
+#    act_multipler = multipler[activity]
 
 
    # Using Harris–Benedict BMR calculate calories needed
-   if gender == "Male":
-       calories_needed = act_multipler * (5  + (4.5 * weight) + (6.25 * height) - (5 * age))
-   elif gender == "Female":
-       calories_needed = act_multipler * (-161  + (4.5 * weight) + (6.25 * height) - (5 * age))
-   else:
-       calories_needed = act_multipler * (-75  + (4.5 * weight) + (6.25 * height) - (5 * age))
+#    if gender == "Male":
+#        calories_needed = act_multipler * (5  + (4.5 * weight) + (6.25 * height) - (5 * age))
+#    elif gender == "Female":
+#        calories_needed = act_multipler * (-161  + (4.5 * weight) + (6.25 * height) - (5 * age))
+#    else:
+#        calories_needed = act_multipler * (-75  + (4.5 * weight) + (6.25 * height) - (5 * age))
 
 
 with tab2:
