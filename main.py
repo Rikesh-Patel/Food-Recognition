@@ -114,7 +114,9 @@ with tab2:
     
     nutrients = pd.read_csv('nutrient_facts.csv', index_col = 0, encoding='latin-1')
     
-    st.dataframe(nutrients)
+    st.dataframe(nutrients.index)
+    st.dataframe(list(nutrients.index))
+
     selected = st.multiselect("Select a food.", list(nutrients.index))
     
     
