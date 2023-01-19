@@ -78,15 +78,14 @@ with tab1:
            st.write('# {}'.format(predicted_class))
            food = nutrients.loc[predicted_class].T
            st.write(food)
-           history.append({'Food':predicted_class, 'Date': date.today()}, ignore_index=True)
+           history = pd.concat([history, pd.DataFrame.from_dict({'Food':[predicted_class], 'Date': [str(date.today())]})], ignore_index=True)
            st.dataframe(history) 
            open('food.csv', 'w').write(history.to_csv())
            #calories_remaining = calories_needed - food.iloc[0]
            #st.write("Using the Harris–Benedict BMR Equation based upon your gender, age, weight, height, and activity level")
            #st.write("#### You will have {} calories remaining".format(round(calories_remaining)))
            image = None
-   st.dataframe(history) 
-   st.dataframe(pd.DataFrame.from_dict({'Food':[predicted_class], 'Date': [str(date.today())]}))
+
            
 
 
