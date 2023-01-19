@@ -7,7 +7,6 @@ from PIL import Image
 import os
 import io
 from datetime import date
-import SessionState
 
 st.set_page_config(page_title='Comparative Stock Analysis')
 st.markdown("""
@@ -28,7 +27,7 @@ tab1,tab2, tab3 = st.tabs(["Main", "Nutrition Facts", "History"])
 with tab1:
 
 
-       
+   history    
    st.write("#### Just snap a picture of your plate!")
 
    image = None
@@ -53,7 +52,6 @@ with tab1:
 
    nutrients = pd.read_csv('nutrient_facts.csv', index_col = 0, encoding='latin-1')
    history= pd.read_csv('food.csv', index_col = 0)
-   session_state = SessionState.get(df=history)
 
 
    def make_prediction(img, model = model):
@@ -80,8 +78,7 @@ with tab1:
            st.write('# {}'.format(predicted_class))
            food = nutrients.loc[predicted_class].T
            st.write(food)
-           session_state.df = session_state.df.append({'Food':food, 'Date': date.today()}, ignore_index=True)
-           
+           history.append({'Food':food, 'Date': date.today()}, ignore_index=True)
            open('food.csv', 'w').write(history.to_csv())
            #calories_remaining = calories_needed - food.iloc[0]
            #st.write("Using the Harris–Benedict BMR Equation based upon your gender, age, weight, height, and activity level")
