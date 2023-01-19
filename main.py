@@ -73,12 +73,13 @@ with tab1:
            image_to_share = Image.open(image)
            st.image(image_to_share, width=265)
        with col2: # the second column will display the predicted class, nutritional facts and reccomended calories remaining
-           st.write("## The Predicted Class Is:")
+           st.write("## The predicted class is")
            predicted_class = make_prediction(image_to_share)
            st.write('# {}'.format(predicted_class))
            food = nutrients.loc[predicted_class].T
            st.write(food)
            history.append({'Food':predicted_class, 'Date': date.today()}, ignore_index=True)
+           st.dataframe(history) 
            open('food.csv', 'w').write(history.to_csv())
            #calories_remaining = calories_needed - food.iloc[0]
            #st.write("Using the Harris–Benedict BMR Equation based upon your gender, age, weight, height, and activity level")
