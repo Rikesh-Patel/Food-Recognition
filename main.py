@@ -22,7 +22,7 @@ st.caption("""
 """, unsafe_allow_html=True
 )
 
-tab1,tab2 = st.tabs(["Main", "Nutrition Facts", "History"])
+tab1,tab2, tab3 = st.tabs(["Main", "Nutrition Facts", "History"])
 
 with tab1:
 
