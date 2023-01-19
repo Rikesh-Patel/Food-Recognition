@@ -7,6 +7,7 @@ from PIL import Image
 import os
 import io
 from datetime import date
+import SessionState
 
 st.set_page_config(page_title='Comparative Stock Analysis')
 st.markdown("""
