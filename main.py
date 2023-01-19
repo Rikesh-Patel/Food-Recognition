@@ -86,6 +86,7 @@ with tab1:
            #st.write("#### You will have {} calories remaining".format(round(calories_remaining)))
            image = None
    st.dataframe(history) 
+   st.dataframe(pd.DataFrame.from_dict({'Food':predicted_class, 'Date': date.today()}))
            
 
 
