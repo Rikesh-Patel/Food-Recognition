@@ -53,7 +53,7 @@ with tab1:
    history= pd.read_csv('food.csv', index_col = 0)
    def save_results(results_df, button_press, food):
     results_df.at[button_press, 'Food'] = food
-    results_df.at[button_press, 'Date'] = str(datetime.today())
+    results_df.at[button_press, 'Date'] = str(date.today())
     results_df.to_csv('food.csv', index=None)
     return None
 
