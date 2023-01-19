@@ -92,7 +92,7 @@ with tab1:
             with open("progress.txt", "w") as f:
                     f.truncate()
                     f.write(f"{button_press}")
-           image = None
+            image = None
 
            
 
