@@ -84,6 +84,7 @@ with tab1:
            #st.write("Using the Harris–Benedict BMR Equation based upon your gender, age, weight, height, and activity level")
            #st.write("#### You will have {} calories remaining".format(round(calories_remaining)))
            image = None
+    st.dataframe(history) 
            
 
 
