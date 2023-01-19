@@ -27,7 +27,7 @@ tab1,tab2, tab3 = st.tabs(["Main", "Nutrition Facts", "History"])
 with tab1:
 
 
-   st.dataframe(history) 
+   
    st.write("#### Just snap a picture of your plate!")
 
    image = None
@@ -52,7 +52,7 @@ with tab1:
 
    nutrients = pd.read_csv('nutrient_facts.csv', index_col = 0, encoding='latin-1')
    history= pd.read_csv('food.csv', index_col = 0)
-
+   st.dataframe(history) 
 
    def make_prediction(img, model = model):
       '''
