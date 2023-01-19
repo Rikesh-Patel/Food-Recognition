@@ -22,7 +22,7 @@ st.caption("""
 """, unsafe_allow_html=True
 )
 
-tab1,tab2 = st.tabs(["Main", "Nutrition Facts"])
+tab1,tab2 = st.tabs(["Main", "Nutrition Facts", "History"])
 
 with tab1:
 
@@ -78,7 +78,6 @@ with tab1:
            st.write('# {}'.format(predicted_class))
            food = nutrients.loc[predicted_class].T
            st.write(food)
-           history = pd.read_csv('food.csv')
            history.append({'Food':food, 'Date': date.today()}, ignore_index=True)
            open('food.csv', 'w').write(history.to_csv())
            #calories_remaining = calories_needed - food.iloc[0]
@@ -123,7 +122,7 @@ with tab2:
         
 
 
-
-
-
-
+with tab3:
+    st.write("History")
+    history = pd.read_csv('food.csv')
+    st.dataframe(history)
