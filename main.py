@@ -23,7 +23,7 @@ st.caption("""
 """, unsafe_allow_html=True
 )
 
-tab1,tab2, tab3 = st.tabs(["Main", "Nutrition Facts", "History"])
+tab1,tab2 = st.tabs(["Main", "Nutrition Facts"])
 
 with tab1:
 
@@ -51,11 +51,7 @@ with tab1:
 
    nutrients = pd.read_csv('nutrient_facts.csv', index_col = 0, encoding='latin-1')
    history= pd.read_csv('food.csv', index_col = 0)
-   def save_results(results_df, button_press, food):
-    results_df.at[button_press, 'Food'] = food
-    results_df.at[button_press, 'Date'] = str(date.today())
-    results_df.to_csv('food.csv', index=None)
-    return None
+
 
    
         
@@ -83,15 +79,6 @@ with tab1:
             st.write('# {}'.format(predicted_class))
             food = nutrients.loc[predicted_class].T
             st.write(food)
-            with open("progress.txt", "r") as f:
-                    button_press = f.readline()  # starts as a string
-                    button_press = 0 if button_press == "" else int(button_press)  # check if its an empty string, otherwise should be able to cast using int()
-            button_press += 1
-            save_results(history, button_press, predicted_class)
-            # track which row of results_df to write to
-            with open("progress.txt", "w") as f:
-                    f.truncate()
-                    f.write(f"{button_press}")
             image = None
 
            
@@ -110,9 +97,3 @@ with tab2:
     if st.button("Submit"):
         st.write(nutrients.loc[selected])
         
-
-
-with tab3:
-    st.write("History")
-    history = pd.read_csv('food.csv')
-    st.dataframe(history[['Food', 'Date']])
