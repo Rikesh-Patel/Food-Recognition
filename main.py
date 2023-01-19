@@ -75,7 +75,7 @@ with tab1:
            predicted_class = make_prediction(image_to_share)
            st.write('# {}'.format(predicted_class))
            food = nutrients.loc[predicted_class].T
-           st.write(food[['Calories', 'Protein','Carbohydrates', 'Fat', 'Sugar', 'Sodium', 'Serving']])
+           st.write(food)
            history = pd.concat([history, pd.DataFrame.from_dict({'Food':[predicted_class], 'Date': [str(date.today())]})], ignore_index=True)
            open('food.csv', 'w').write(history.to_csv())
            #calories_remaining = calories_needed - food.iloc[0]
