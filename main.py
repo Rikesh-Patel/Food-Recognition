@@ -27,7 +27,7 @@ tab1,tab2, tab3 = st.tabs(["Main", "Nutrition Facts", "History"])
 with tab1:
 
 
-   history    
+   st.dataframe(history) 
    st.write("#### Just snap a picture of your plate!")
 
    image = None
