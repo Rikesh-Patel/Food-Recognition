@@ -65,22 +65,23 @@ with tab1:
       return classes[pred_class]
 
 
-   if image is not None: # if the image is an actual file then
-       col1, col2 = st.columns(2) # split our layout into two columns
-       with col1: # the first column in our layout will display the image
+   if image is not None: 
+       col1, col2 = st.columns(2) 
+       with col1: 
            image_to_share = Image.open(image)
            st.image(image_to_share, width=265)
-       with col2: # the second column will display the predicted class, nutritional facts and reccomended calories remaining
+       with col2: 
            st.write("## The predicted class is")
            predicted_class = make_prediction(image_to_share)
            st.write('# {}'.format(predicted_class))
            food = nutrients.loc[predicted_class].T
            st.write(food)
-           history = pd.concat([history, pd.DataFrame.from_dict({'Food':[predicted_class], 'Date': [str(date.today())]})], ignore_index=True)
-           open('food.csv', 'w').write(history.to_csv())
-           #calories_remaining = calories_needed - food.iloc[0]
-           #st.write("Using the Harris–Benedict BMR Equation based upon your gender, age, weight, height, and activity level")
-           #st.write("#### You will have {} calories remaining".format(round(calories_remaining)))
+           #history = pd.concat([history, pd.DataFrame.from_dict()], ignore_index=True)
+           with open('food.csv', 'a') as csv_file:
+                dict_object = csv.DictWriter(csv_file, fieldnames=['Food', 'Date']) 
+  
+                dict_object.writerow({'Food':[predicted_class], 'Date': [str(date.today())]})
+           
            image = None
 
            
@@ -88,7 +89,7 @@ with tab1:
 
 
 with tab2:
-    st.write("### Select which food(s) you would like to learn more about!")
+    st.write("### Select a food for facts!")
     
     nutrients = pd.read_csv('nutrient_facts.csv', index_col = 0, encoding='latin-1')
     
