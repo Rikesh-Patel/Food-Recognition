@@ -8,7 +8,7 @@ import os
 import io
 from datetime import date
 
-st.set_page_config(page_title='Comparative Stock Analysis')
+st.set_page_config(page_title='iEat')
 st.markdown("""
     <h1 style='text-align: center; color: #FFFFFF; margin-bottom: -30px;'>
   iEat
@@ -26,8 +26,6 @@ tab1,tab2, tab3 = st.tabs(["Main", "Nutrition Facts", "History"])
 
 with tab1:
 
-
-   
    st.write("#### Just snap a picture of your plate!")
 
    image = None
@@ -52,7 +50,7 @@ with tab1:
 
    nutrients = pd.read_csv('nutrient_facts.csv', index_col = 0, encoding='latin-1')
    history= pd.read_csv('food.csv', index_col = 0)
-   st.dataframe(history) 
+
 
    def make_prediction(img, model = model):
       '''
@@ -77,9 +75,8 @@ with tab1:
            predicted_class = make_prediction(image_to_share)
            st.write('# {}'.format(predicted_class))
            food = nutrients.loc[predicted_class].T
-           st.write(food)
+           st.write(food[['Calories', 'Protein','Carbohydrates', 'Fat', 'Sugar', 'Sodium', 'Serving']])
            history = pd.concat([history, pd.DataFrame.from_dict({'Food':[predicted_class], 'Date': [str(date.today())]})], ignore_index=True)
-           st.dataframe(history) 
            open('food.csv', 'w').write(history.to_csv())
            #calories_remaining = calories_needed - food.iloc[0]
            #st.write("Using the Harris–Benedict BMR Equation based upon your gender, age, weight, height, and activity level")
@@ -88,26 +85,6 @@ with tab1:
 
            
 
-
-   # Ask the user for their information so we can generate their calories required
-#    gender = st.selectbox('Your Gender/Sex', ['Male', 'Female', 'Gender Diverse'])
-#    age = st.slider('Age', 0, 110, 20)
-#    weight = st.slider("Current Weight In Pounds", 0, 300, 150)
-#    height = st.slider("Current Height in Cm", 0, 250, 140)
-#    activity = st.selectbox("Your Activity Level", ["High", "Medium", "Low"])
-
-#    multipler = {"High" : 2.25, "Medium" : 1.76, "Low" : 1.53} # The Basal multipler based upon the activity level(Harris–Benedict BMR)
-
-#    act_multipler = multipler[activity]
-
-
-   # Using Harris–Benedict BMR calculate calories needed
-#    if gender == "Male":
-#        calories_needed = act_multipler * (5  + (4.5 * weight) + (6.25 * height) - (5 * age))
-#    elif gender == "Female":
-#        calories_needed = act_multipler * (-161  + (4.5 * weight) + (6.25 * height) - (5 * age))
-#    else:
-#        calories_needed = act_multipler * (-75  + (4.5 * weight) + (6.25 * height) - (5 * age))
 
 
 with tab2:
@@ -127,4 +104,4 @@ with tab2:
 with tab3:
     st.write("History")
     history = pd.read_csv('food.csv')
-    st.dataframe(history)
+    st.dataframe(history[['Food', 'Date']])
