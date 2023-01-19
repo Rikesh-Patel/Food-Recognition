@@ -114,10 +114,10 @@ with tab2:
     
     nutrients = pd.read_csv('nutrient_facts.csv', index_col = 0, encoding='latin-1')
     
-    st.dataframe(nutrients.index.tolist())
+    st.dataframe()
     # st.dataframe(list(nutrients.index))
 
-    selected = st.multiselect("Select a food.", list(nutrients.index))
+    selected = st.multiselect("Select a food.", nutrients.index.tolist())
     
     
     if st.button("Submit"):
