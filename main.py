@@ -51,8 +51,14 @@ with tab1:
 
    nutrients = pd.read_csv('nutrient_facts.csv', index_col = 0, encoding='latin-1')
    history= pd.read_csv('food.csv', index_col = 0)
+   def save_results(results_df, button_press, food):
+    results_df.at[button_press, 'Food'] = food
+    results_df.at[button_press, 'Date'] = str(datetime.today())
+    results_df.to_csv('food.csv', index=None)
+    return None
 
-
+   
+        
    def make_prediction(img, model = model):
       '''
        This function takes in a image and model, and uses the model to predict the class of the image 
@@ -72,17 +78,20 @@ with tab1:
            image_to_share = Image.open(image)
            st.image(image_to_share, width=265)
        with col2: 
-           st.write("## The predicted class is")
-           predicted_class = make_prediction(image_to_share)
-           st.write('# {}'.format(predicted_class))
-           food = nutrients.loc[predicted_class].T
-           st.write(food)
-           #history = pd.concat([history, pd.DataFrame.from_dict()], ignore_index=True)
-           with open('food.csv', 'a') as csv_file:
-                dict_object = csv.DictWriter(csv_file, fieldnames=['', 'Food', 'Date']) 
-  
-                dict_object.writerow({'Food':predicted_class, 'Date': str(date.today())})
-           
+            st.write("## The predicted class is")
+            predicted_class = make_prediction(image_to_share)
+            st.write('# {}'.format(predicted_class))
+            food = nutrients.loc[predicted_class].T
+            st.write(food)
+            with open("progress.txt", "r") as f:
+                    button_press = f.readline()  # starts as a string
+                    button_press = 0 if button_press == "" else int(button_press)  # check if its an empty string, otherwise should be able to cast using int()
+            button_press += 1
+            save_results(history, button_press, predicted_class)
+            # track which row of results_df to write to
+            with open("progress.txt", "w") as f:
+                    f.truncate()
+                    f.write(f"{button_press}")
            image = None
 
            
