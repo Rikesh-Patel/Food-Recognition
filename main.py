@@ -79,9 +79,9 @@ with tab1:
            st.write(food)
            #history = pd.concat([history, pd.DataFrame.from_dict()], ignore_index=True)
            with open('food.csv', 'a') as csv_file:
-                dict_object = csv.DictWriter(csv_file, fieldnames=['Food', 'Date']) 
+                dict_object = csv.DictWriter(csv_file, fieldnames=['', 'Food', 'Date']) 
   
-                dict_object.writerow({'Food':[predicted_class], 'Date': [str(date.today())]})
+                dict_object.writerow({'Food':predicted_class, 'Date': str(date.today())})
            
            image = None
 
